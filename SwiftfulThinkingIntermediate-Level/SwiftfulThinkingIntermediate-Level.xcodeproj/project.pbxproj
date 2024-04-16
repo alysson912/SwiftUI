@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B660E512BCEF7C80059B8AF /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B660E502BCEF7C80059B8AF /* ScrollViewReaderBootcamp.swift */; };
 		4B9FC0E22B684F8500B6659E /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FC0E12B684F8500B6659E /* DragGestureBootcamp.swift */; };
 		4B9FC0E42B68554100B6659E /* DragGestureBootcamp02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FC0E32B68554100B6659E /* DragGestureBootcamp02.swift */; };
 		4BAB42182B572AC50082A3F1 /* SwiftfulThinkingIntermediate_LevelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAB42172B572AC50082A3F1 /* SwiftfulThinkingIntermediate_LevelApp.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B660E502BCEF7C80059B8AF /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		4B9FC0E12B684F8500B6659E /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
 		4B9FC0E32B68554100B6659E /* DragGestureBootcamp02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp02.swift; sourceTree = "<group>"; };
 		4BAB42142B572AC50082A3F1 /* SwiftfulThinkingIntermediate-Level.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftfulThinkingIntermediate-Level.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 				4BAB422A2B573E560082A3F1 /* RotationGestureBootcamp.swift */,
 				4B9FC0E12B684F8500B6659E /* DragGestureBootcamp.swift */,
 				4B9FC0E32B68554100B6659E /* DragGestureBootcamp02.swift */,
+				4B660E502BCEF7C80059B8AF /* ScrollViewReaderBootcamp.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				4BAB42262B572D640082A3F1 /* LongPressGestureBootcamp.swift in Sources */,
 				4B9FC0E42B68554100B6659E /* DragGestureBootcamp02.swift in Sources */,
 				4B9FC0E22B684F8500B6659E /* DragGestureBootcamp.swift in Sources */,
+				4B660E512BCEF7C80059B8AF /* ScrollViewReaderBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
