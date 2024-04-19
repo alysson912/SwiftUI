@@ -22,8 +22,8 @@ struct MaskBootcamp: View {
         GeometryReader { geometry in
             ZStack(alignment: .leading) {
                 Rectangle()
-                   // .foregroundColor(.yellow)
-                    .fill(LinearGradient(gradient: Gradient(colors: [Color.blue, Color.red]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/))
+                    .foregroundColor(.yellow)
+                   // .fill(LinearGradient(gradient: Gradient(colors: [Color.blue, Color.red]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/))
                     .frame(width: CGFloat(rating) / 5 * geometry.size.width)
                     
             }
