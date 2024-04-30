@@ -19,6 +19,13 @@
 		4B79CFAB2BDD71360099D29D /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B79CFAA2BDD71360099D29D /* CoreDataBootcamp.swift */; };
 		4B79CFAF2BDD7D5B0099D29D /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B79CFAD2BDD7D5B0099D29D /* FruitsContainer.xcdatamodeld */; };
 		4B79CFB12BDD9FA00099D29D /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B79CFB02BDD9FA00099D29D /* CoreDataViewModel.swift */; };
+		4B79CFB42BE032B10099D29D /* CoreDataRelationshipsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B79CFB32BE032B10099D29D /* CoreDataRelationshipsBootcamp.swift */; };
+		4B79CFB72BE036EF0099D29D /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B79CFB52BE036EE0099D29D /* CoreDataContainer.xcdatamodeld */; };
+		4B79CFB92BE0495E0099D29D /* CoreDataRelationshipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B79CFB82BE0495E0099D29D /* CoreDataRelationshipsViewModel.swift */; };
+		4B79CFC02BE15E6D0099D29D /* DepartmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B79CFBF2BE15E6D0099D29D /* DepartmentView.swift */; };
+		4B79CFC22BE15EA10099D29D /* BusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B79CFC12BE15EA10099D29D /* BusinessView.swift */; };
+		4B79CFC52BE166640099D29D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B79CFC42BE166640099D29D /* CoreDataManager.swift */; };
+		4B79CFC72BE166F10099D29D /* EmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B79CFC62BE166F10099D29D /* EmployeeView.swift */; };
 		4B9FC0E22B684F8500B6659E /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FC0E12B684F8500B6659E /* DragGestureBootcamp.swift */; };
 		4B9FC0E42B68554100B6659E /* DragGestureBootcamp02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FC0E32B68554100B6659E /* DragGestureBootcamp02.swift */; };
 		4BAB42182B572AC50082A3F1 /* SwiftfulThinkingIntermediate_LevelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAB42172B572AC50082A3F1 /* SwiftfulThinkingIntermediate_LevelApp.swift */; };
@@ -44,6 +51,13 @@
 		4B79CFAA2BDD71360099D29D /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
 		4B79CFAE2BDD7D5B0099D29D /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		4B79CFB02BDD9FA00099D29D /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
+		4B79CFB32BE032B10099D29D /* CoreDataRelationshipsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootcamp.swift; sourceTree = "<group>"; };
+		4B79CFB62BE036EE0099D29D /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
+		4B79CFB82BE0495E0099D29D /* CoreDataRelationshipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsViewModel.swift; sourceTree = "<group>"; };
+		4B79CFBF2BE15E6D0099D29D /* DepartmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentView.swift; sourceTree = "<group>"; };
+		4B79CFC12BE15EA10099D29D /* BusinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessView.swift; sourceTree = "<group>"; };
+		4B79CFC42BE166640099D29D /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		4B79CFC62BE166F10099D29D /* EmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeView.swift; sourceTree = "<group>"; };
 		4B9FC0E12B684F8500B6659E /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
 		4B9FC0E32B68554100B6659E /* DragGestureBootcamp02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp02.swift; sourceTree = "<group>"; };
 		4BAB42142B572AC50082A3F1 /* SwiftfulThinkingIntermediate-Level.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftfulThinkingIntermediate-Level.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +111,52 @@
 			path = "CoreData+MVVM";
 			sourceTree = "<group>";
 		};
+		4B79CFB22BE0328B0099D29D /* CoreDataRelationsships */ = {
+			isa = PBXGroup;
+			children = (
+				4B79CFC32BE166420099D29D /* CoreDataManager */,
+				4B79CFBE2BE04BB00099D29D /* CoreData */,
+				4B79CFBD2BE04BA40099D29D /* ViewModel */,
+				4B79CFBC2BE04B9A0099D29D /* View */,
+			);
+			path = CoreDataRelationsships;
+			sourceTree = "<group>";
+		};
+		4B79CFBC2BE04B9A0099D29D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B79CFB32BE032B10099D29D /* CoreDataRelationshipsBootcamp.swift */,
+				4B79CFBF2BE15E6D0099D29D /* DepartmentView.swift */,
+				4B79CFC12BE15EA10099D29D /* BusinessView.swift */,
+				4B79CFC62BE166F10099D29D /* EmployeeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B79CFBD2BE04BA40099D29D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4B79CFB82BE0495E0099D29D /* CoreDataRelationshipsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4B79CFBE2BE04BB00099D29D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4B79CFB52BE036EE0099D29D /* CoreDataContainer.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		4B79CFC32BE166420099D29D /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				4B79CFC42BE166640099D29D /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
 		4BAB420B2B572AC50082A3F1 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +195,7 @@
 		4BAB42272B5736C10082A3F1 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				4B79CFB22BE0328B0099D29D /* CoreDataRelationsships */,
 				4B79CFAC2BDD7D0B0099D29D /* CoreData+MVVM */,
 				4BAB42252B572D640082A3F1 /* LongPressGestureBootcamp.swift */,
 				4BAB42282B5737320082A3F1 /* MagnificationGestureBootcamp.swift */,
@@ -231,17 +292,24 @@
 				4B79CFAF2BDD7D5B0099D29D /* FruitsContainer.xcdatamodeld in Sources */,
 				4BF91E3D2BD7012A001DB3F5 /* ArraysBootcamp.swift in Sources */,
 				4BAB422B2B573E560082A3F1 /* RotationGestureBootcamp.swift in Sources */,
+				4B79CFC52BE166640099D29D /* CoreDataManager.swift in Sources */,
 				4BAB42292B5737320082A3F1 /* MagnificationGestureBootcamp.swift in Sources */,
 				4BAB42182B572AC50082A3F1 /* SwiftfulThinkingIntermediate_LevelApp.swift in Sources */,
+				4B79CFB72BE036EF0099D29D /* CoreDataContainer.xcdatamodeld in Sources */,
 				4B660E532BCF0F320059B8AF /* GeometryReaderBootcamp.swift in Sources */,
 				4BF91E3B2BD6FC19001DB3F5 /* HashableBootcamp.swift in Sources */,
 				4BAB42262B572D640082A3F1 /* LongPressGestureBootcamp.swift in Sources */,
 				4B79CFAB2BDD71360099D29D /* CoreDataBootcamp.swift in Sources */,
 				4B660E592BD2DF180059B8AF /* SoundsBootcamp.swift in Sources */,
 				4B9FC0E42B68554100B6659E /* DragGestureBootcamp02.swift in Sources */,
+				4B79CFC22BE15EA10099D29D /* BusinessView.swift in Sources */,
+				4B79CFB92BE0495E0099D29D /* CoreDataRelationshipsViewModel.swift in Sources */,
 				4B9FC0E22B684F8500B6659E /* DragGestureBootcamp.swift in Sources */,
 				4B660E512BCEF7C80059B8AF /* ScrollViewReaderBootcamp.swift in Sources */,
+				4B79CFC72BE166F10099D29D /* EmployeeView.swift in Sources */,
+				4B79CFB42BE032B10099D29D /* CoreDataRelationshipsBootcamp.swift in Sources */,
 				4B660E552BCF17760059B8AF /* MultipleSheetsBootCamp.swift in Sources */,
+				4B79CFC02BE15E6D0099D29D /* DepartmentView.swift in Sources */,
 				4B660E632BD308390059B8AF /* LocalNotificationBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +526,16 @@
 			currentVersion = 4B79CFAE2BDD7D5B0099D29D /* FruitsContainer.xcdatamodel */;
 			name = FruitsContainer.xcdatamodeld;
 			path = "/Users/alyssonmenezes/IOS/SwiftUI/SwiftfulThinking-Bootcamp/SwiftfulThinkingIntermediate-Level/SwiftfulThinkingIntermediate-Level/UI/CoreData+MVVM/FruitsContainer.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		4B79CFB52BE036EE0099D29D /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B79CFB62BE036EE0099D29D /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = 4B79CFB62BE036EE0099D29D /* CoreDataContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
