@@ -38,6 +38,8 @@
 		4BF61FF92BE2BA48004652E5 /* BackgroundThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF61FF82BE2BA48004652E5 /* BackgroundThreadViewModel.swift */; };
 		4BF61FFD2BE2D976004652E5 /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF61FFC2BE2D976004652E5 /* WeakSelfBootcamp.swift */; };
 		4BF61FFF2BE3B3FF004652E5 /* TypealiasBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF61FFE2BE3B3FF004652E5 /* TypealiasBootcamp.swift */; };
+		4BF620022BE3BC9E004652E5 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF620012BE3BC9E004652E5 /* EscapingBootcamp.swift */; };
+		4BF620062BE3BDDE004652E5 /* EscapingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF620052BE3BDDE004652E5 /* EscapingViewModel.swift */; };
 		4BF91E3B2BD6FC19001DB3F5 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF91E3A2BD6FC19001DB3F5 /* HashableBootcamp.swift */; };
 		4BF91E3D2BD7012A001DB3F5 /* ArraysBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF91E3C2BD7012A001DB3F5 /* ArraysBootcamp.swift */; };
 /* End PBXBuildFile section */
@@ -75,6 +77,8 @@
 		4BF61FF82BE2BA48004652E5 /* BackgroundThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadViewModel.swift; sourceTree = "<group>"; };
 		4BF61FFC2BE2D976004652E5 /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
 		4BF61FFE2BE3B3FF004652E5 /* TypealiasBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBootcamp.swift; sourceTree = "<group>"; };
+		4BF620012BE3BC9E004652E5 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
+		4BF620052BE3BDDE004652E5 /* EscapingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingViewModel.swift; sourceTree = "<group>"; };
 		4BF91E3A2BD6FC19001DB3F5 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		4BF91E3C2BD7012A001DB3F5 /* ArraysBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -203,6 +207,7 @@
 		4BAB42272B5736C10082A3F1 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				4BF620002BE3BC83004652E5 /* Escaping */,
 				4BF61FF72BE2BA25004652E5 /* Multi-threading */,
 				4B79CFB22BE0328B0099D29D /* CoreDataRelationsships */,
 				4B79CFAC2BDD7D0B0099D29D /* CoreData+MVVM */,
@@ -246,6 +251,31 @@
 			isa = PBXGroup;
 			children = (
 				4BF61FF52BE2B9EE004652E5 /* BackgroundThreadBootcamp.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4BF620002BE3BC83004652E5 /* Escaping */ = {
+			isa = PBXGroup;
+			children = (
+				4BF620042BE3BDC5004652E5 /* View */,
+				4BF620032BE3BDBF004652E5 /* ViewModel */,
+			);
+			path = Escaping;
+			sourceTree = "<group>";
+		};
+		4BF620032BE3BDBF004652E5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4BF620052BE3BDDE004652E5 /* EscapingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4BF620042BE3BDC5004652E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BF620012BE3BC9E004652E5 /* EscapingBootcamp.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -322,8 +352,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BF620022BE3BC9E004652E5 /* EscapingBootcamp.swift in Sources */,
 				4BF61FF62BE2B9EE004652E5 /* BackgroundThreadBootcamp.swift in Sources */,
 				4BF61FF92BE2BA48004652E5 /* BackgroundThreadViewModel.swift in Sources */,
+				4BF620062BE3BDDE004652E5 /* EscapingViewModel.swift in Sources */,
 				4B660E572BD06E270059B8AF /* MaskBootcamp.swift in Sources */,
 				4B79CFB12BDD9FA00099D29D /* CoreDataViewModel.swift in Sources */,
 				4B660E612BD2FCE20059B8AF /* HapticsBootcamp.swift in Sources */,
