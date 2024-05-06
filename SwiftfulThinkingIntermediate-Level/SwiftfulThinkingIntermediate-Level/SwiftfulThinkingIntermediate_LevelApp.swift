@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftfulThinkingIntermediate_LevelApp: App {
     var body: some Scene {
         WindowGroup {
-            EscapingBootcamp()
+            CodableBootcamp()
         }
     }
 }
