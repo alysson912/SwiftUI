@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TimerBootcamp: View {
-    let timer = Timer.publish(every: 3.0, on: .main, in: .common).autoconnect()
+    let timer = Timer.publish(every: 1.5, on: .main, in: .common).autoconnect()
     
     //MARK: Current Time
     /*

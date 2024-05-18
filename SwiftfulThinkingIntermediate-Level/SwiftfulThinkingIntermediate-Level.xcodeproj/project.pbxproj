@@ -49,6 +49,8 @@
 		4BF61FFF2BE3B3FF004652E5 /* TypealiasBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF61FFE2BE3B3FF004652E5 /* TypealiasBootcamp.swift */; };
 		4BF620022BE3BC9E004652E5 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF620012BE3BC9E004652E5 /* EscapingBootcamp.swift */; };
 		4BF620062BE3BDDE004652E5 /* EscapingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF620052BE3BDDE004652E5 /* EscapingViewModel.swift */; };
+		4BF6513C2BF7FA2C00609525 /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6513B2BF7FA2C00609525 /* SubscriberBootcamp.swift */; };
+		4BF651412BF7FA6000609525 /* SubscriberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF651402BF7FA6000609525 /* SubscriberViewModel.swift */; };
 		4BF91E3B2BD6FC19001DB3F5 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF91E3A2BD6FC19001DB3F5 /* HashableBootcamp.swift */; };
 		4BF91E3D2BD7012A001DB3F5 /* ArraysBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF91E3C2BD7012A001DB3F5 /* ArraysBootcamp.swift */; };
 /* End PBXBuildFile section */
@@ -97,6 +99,8 @@
 		4BF61FFE2BE3B3FF004652E5 /* TypealiasBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBootcamp.swift; sourceTree = "<group>"; };
 		4BF620012BE3BC9E004652E5 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
 		4BF620052BE3BDDE004652E5 /* EscapingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingViewModel.swift; sourceTree = "<group>"; };
+		4BF6513B2BF7FA2C00609525 /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
+		4BF651402BF7FA6000609525 /* SubscriberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberViewModel.swift; sourceTree = "<group>"; };
 		4BF91E3A2BD6FC19001DB3F5 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		4BF91E3C2BD7012A001DB3F5 /* ArraysBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -284,6 +288,7 @@
 		4BAB42272B5736C10082A3F1 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				4BF651392BF7F9F500609525 /* Subscriber+Combine */,
 				4BD5EC242BF55F0D0033CA4E /* Download+JSON */,
 				4B2463012BE50AC000BB39C4 /* Codable-Decodable */,
 				4BF620002BE3BC83004652E5 /* Escaping */,
@@ -403,6 +408,31 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		4BF651392BF7F9F500609525 /* Subscriber+Combine */ = {
+			isa = PBXGroup;
+			children = (
+				4BF6513D2BF7FA3200609525 /* ViewModel */,
+				4BF6513A2BF7FA0E00609525 /* View */,
+			);
+			path = "Subscriber+Combine";
+			sourceTree = "<group>";
+		};
+		4BF6513A2BF7FA0E00609525 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BF6513B2BF7FA2C00609525 /* SubscriberBootcamp.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4BF6513D2BF7FA3200609525 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4BF651402BF7FA6000609525 /* SubscriberViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -489,6 +519,7 @@
 				4B79CFAF2BDD7D5B0099D29D /* FruitsContainer.xcdatamodeld in Sources */,
 				4BF91E3D2BD7012A001DB3F5 /* ArraysBootcamp.swift in Sources */,
 				4BAB422B2B573E560082A3F1 /* RotationGestureBootcamp.swift in Sources */,
+				4BF651412BF7FA6000609525 /* SubscriberViewModel.swift in Sources */,
 				4BD5EC272BF55F660033CA4E /* DownloadWithCombine.swift in Sources */,
 				4BF61FFF2BE3B3FF004652E5 /* TypealiasBootcamp.swift in Sources */,
 				4B79CFC52BE166640099D29D /* CoreDataManager.swift in Sources */,
@@ -502,6 +533,7 @@
 				4BAB42262B572D640082A3F1 /* LongPressGestureBootcamp.swift in Sources */,
 				4B79CFAB2BDD71360099D29D /* CoreDataBootcamp.swift in Sources */,
 				4B660E592BD2DF180059B8AF /* SoundsBootcamp.swift in Sources */,
+				4BF6513C2BF7FA2C00609525 /* SubscriberBootcamp.swift in Sources */,
 				4B9FC0E42B68554100B6659E /* DragGestureBootcamp02.swift in Sources */,
 				4B79CFC22BE15EA10099D29D /* BusinessView.swift in Sources */,
 				4B79CFB92BE0495E0099D29D /* CoreDataRelationshipsViewModel.swift in Sources */,
